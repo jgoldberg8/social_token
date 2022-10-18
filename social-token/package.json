@@ -1,7 +1,7 @@
 {
-  "name": "social-token",
-  "version": "0.1.0",
-  "private": true,
+  "name": "nextjs_moralis_auth",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,12 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.3.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "eslint": "8.24.0",
-    "eslint-config-next": "12.3.1"
+    "axios": "^0.27.2",
+    "ethers": "^5.6.9",
+    "fs": "^0.0.1-security",
+    "moralis": "^2.0.1",
+    "net": "^1.0.2",
+    "next": "^12.2.4",
+    "next-auth": "^4.10.3",
+    "prompt-sync": "^4.2.0",
+    "query": "^0.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "wagmi": "^0.6.1"
   }
 }
